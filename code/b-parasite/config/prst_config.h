@@ -7,7 +7,7 @@
 #define PRST_LED_PIN NRF_GPIO_PIN_MAP(0, 28)
 
 // Deep sleep.
-#define PRST_DEEP_SLEEP_IN_SECONDS 300
+#define PRST_DEEP_SLEEP_IN_SECONDS 600
 
 // Analog to digital converter (ADC).
 // Prints out ADC debug info, such as the values read for battery and soil
@@ -23,8 +23,8 @@
 // 1. Two most significant bits are set to 1;
 // 2. The remaining bits should not _all_ be set to 0;
 // 2. The remaining bits should not _all_ be set to 1;
-#define PRST_BLE_MAC_ADDR "f0:ca:f0:ca:00:01"
-#define PRST_BLE_ADV_NAME "prst"
+#define PRST_BLE_MAC_ADDR "f0:ca:f0:ca:00:02"
+#define PRST_BLE_ADV_NAME "prst2"
 // Total time spend advertising.
 #define PRST_BLE_ADV_TIME_IN_MS 1000
 // Interval between advertising packets.
